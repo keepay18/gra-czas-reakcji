@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.game-container{
+    background-color: black;
+    height: 600px;
+    width: 700px;
+    color: white;
+    padding: 0;
+    border-radius: 10px;
+    border: 2px solid orangered;
+    box-shadow: 2px 2px 8px orangered;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    border-bottom: 2px solid white;
+}
+
+.information{
+    text-align: center;
+}
+
+.information p span{
+    color: green;
+}
+
+
+
+.canvas-parent{
+    background-color: aqua;
+    cursor: pointer;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid orangered;
+
+}
+
+.score .section-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.score .section-1 button{
+    background-color: orangered;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.score .section-1 button:hover{
+    cursor: pointer;
+}
+
+
+.score .section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 2px solid orangered;
+    
+}
+
+#time-text{
+    font-size: 24px;
+    margin-top: 5px;
+}
+
